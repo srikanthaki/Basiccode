@@ -19,7 +19,7 @@ public class DBOperations {
 	
 	public static void main(String args[])  {
 		DBOperations d1 = new DBOperations();
-		
+	}		
 		/*ClassLoader cl = ClassLoader.getSystemClassLoader();
         URL[] urls = ((URLClassLoader)cl).getURLs();
         for(URL url: urls){
@@ -27,40 +27,7 @@ public class DBOperations {
         } */
 
 		
-		Scanner s1 = new Scanner(System.in);
-		System.out.println("Enter the option number:");
-		System.out.println("1. Retrieve data");
-		System.out.println("2.Insert a new record");
-		System.out.println("3.Update a record");
-		System.out.println("4.Create a database");
-		System.out.println("5.Drop the database created");
 		
-		
-		int choice = s1.nextInt();
-		s1.nextLine();
-		
-		switch(choice) {
-		case 1: d1.retrieveData();
-		break;
-		
-		case 2: d1.insertRecord();
-		break;
-		
-		case 3: d1.updateRecord();
-		break;
-		
-		case 4:
-			System.out.println("Name of the database you want to create:");
-			d1.createDb(s1.nextLine());
-			break;
-			
-		case 5:
-			System.out.println("Name of the database you want to delete:");
-			d1.deleteDb(s1.nextLine());
-		}
-		s1.close();
-	}
-	
 	public void retrieveData() {
 		String query1 = "Select * from cars_tbl";
 		try {
@@ -280,7 +247,7 @@ public void deleteDb(String dbname) {
 }
 
 public static void main1(String[] args) {
-	/home/srikanthaki182g/eclipse-workspace/WebJava
+	///home/srikanthaki182g/eclipse-workspace/WebJava
 }
 
 }
