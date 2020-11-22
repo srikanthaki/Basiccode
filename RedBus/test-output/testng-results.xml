@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5778" started-at="2020-11-21T17:00:38 UTC" finished-at="2020-11-21T17:00:44 UTC">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5778" started-at="2020-11-21T17:00:38 UTC" finished-at="2020-11-21T17:00:44 UTC">
+      <class name="com.redBus.Login.test.LoginTest">
+        <test-method status="PASS" signature="fetchdata()[pri:0, instance:com.redBus.Login.test.LoginTest@a7e666]" name="fetchdata" is-config="true" duration-ms="369" started-at="2020-11-21T17:00:38 UTC" finished-at="2020-11-21T17:00:38 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchdata -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.redBus.Login.test.LoginTest@a7e666]" name="setup" is-config="true" duration-ms="3748" started-at="2020-11-21T17:00:39 UTC" finished-at="2020-11-21T17:00:42 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.redBus.Login.test.LoginTest@a7e666]" name="login" duration-ms="1619" started-at="2020-11-21T17:00:42 UTC" finished-at="2020-11-21T17:00:44 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.redBus.Login.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
