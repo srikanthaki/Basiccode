@@ -27,13 +27,14 @@ public class LoginPage {
 
 	}
 
-	public void LogintoApp(String Mobile) {
+	public void LogintoApp(String Mobile) throws InterruptedException {
 
 		LoginIcon.click();
 		LoginLink.click();
 
 		System.out.println(Mobile);
 		driver.switchTo().frame(0);
+		
 		MobileNo.sendKeys(Mobile);
 
 	}

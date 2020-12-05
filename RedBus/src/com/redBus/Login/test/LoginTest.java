@@ -6,10 +6,11 @@ import java.io.IOException;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.redBus.Login.pages.LoginPage;
-
+@Listeners(ListenerClass.class)
 public class LoginTest extends BaseTest {
 	XSSFWorkbook Workbook;
 	XSSFSheet sheet1;
@@ -24,7 +25,7 @@ public class LoginTest extends BaseTest {
 	}
 
 	@Test
-	public void login() {
+	public void login() throws InterruptedException {
 
 		LoginPage loginpage = new LoginPage(driver);
 
